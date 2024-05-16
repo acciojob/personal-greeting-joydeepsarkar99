@@ -9,8 +9,8 @@ const App = () => {
     }
   return (
     <div>
-        <label htmlFor="name">Enter your Name:</label> <br></br>
-        <input type="text" id="name" onChange={handleChange}></input>
+        <p>Enter your Name:</p>
+        <input type="text" onChange={handleChange}></input>
         {(name != "" && <p>Hello {name}!</p>)}
     </div>
   )
